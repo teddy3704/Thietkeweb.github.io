@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .contact-info, .education, .experience, .skills {
+            margin-bottom: 20px;
+        }
+        .contact-info p, .education p, .experience p, .skills p {
+            margin: 5px 0;
+        }
+        .job-title {
+            font-weight: bold;
+        }
+        .date {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+        .list {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+        .list-item {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>PHAN VĂN TIẾN</h1>
+            <p>Địa chỉ: 1 Phù Đổng Thiên Vương , Phường 8, TP. Đà Lạt</p>
+            <p>Email: 2212472@dlu.edu.vn | Điện thoại: 0915 172 356</p>
+        </header>
+
+        <div class="section contact-info">
+            <h2>Thông Tin Liên Hệ</h2>
+            <p>Email: 2212472@dlu.edu.vn</p>
+            <p>Điện thoại:0915 172 356</p>
+            <p>Địa chỉ: 1 Phù Đổng Thiên Vương , Phường 8, TP. Đà Lạt</p>
+        </div>
+
+        <div class="section education">
+            <h2>Trình Độ Học Vấn</h2>
+            <p><strong>Đại học Đà Lạt</strong> - Kỹ Sư Công Nghệ Thông Tin (2020 - 2025)</p>
+            <p><strong>Trường THPT Nguyễn Bỉnh Khiêm</strong> - Tốt nghiệp Trung học Phổ thông (2018 - 2021)</p>
+        </div>
+
+        <div class="section experience">
+            <h2>Kinh Nghiệm Làm Việc</h2>
+            <p><strong class="job-title">Kỹ sư Phần mềm</strong> - Công ty XYZ (2020 - Hiện tại)</p>
+            <ul class="list">
+                <li class="list-item">Phát triển và duy trì các ứng dụng phần mềm.</li>
+                <li class="list-item">Tạo ra giải pháp cho các vấn đề kỹ thuật phức tạp.</li>
+            </ul>
+            <p><strong class="job-title">Thực tập sinh Phát triển Phần mềm</strong> - Công ty ABC (2019 - 2020)</p>
+            <ul class="list">
+                <li class="list-item">Hỗ trợ nhóm phát triển trong việc kiểm thử và sửa lỗi.</li>
+                <li class="list-item">Tham gia vào các dự án phát triển phần mềm nhỏ.</li>
+            </ul>
+        </div>
+
+        <div class="section skills">
+            <h2>Kỹ Năng</h2>
+            <ul class="list">
+                <li class="list-item">Lập trình bằng các ngôn ngữ: Java, C++, Python</li>
+                <li class="list-item">Quản lý cơ sở dữ liệu: MySQL, MongoDB</li>
+                <li class="list-item">Kỹ năng giải quyết vấn đề và phân tích dữ liệu</li>
+                <li class="list-item">Kỹ năng giao tiếp và làm việc nhóm</li>
+            </ul>
+        </div>
+
+        <footer>
+            <em>Ngày cập nhật: Tháng 8, 2024</em>
+        </footer>
+    </div>
+</body>
+</html>
