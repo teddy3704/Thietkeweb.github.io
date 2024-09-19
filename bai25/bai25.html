@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mua Bán Sách Cũ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Website Mua Bán Sách Cũ</h1>
+    <nav>
+        <ul>
+            <li><a href="#sell">Bán Sách</a></li>
+            <li><a href="#buy">Mua Sách</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="sell">
+        <h2>Bán Sách Cũ</h2>
+        <form id="sellForm">
+            <label for="bookTitle">Tên sách:</label>
+            <input type="text" id="bookTitle" required>
+
+            <label for="author">Tác giả:</label>
+            <input type="text" id="author" required>
+
+            <label for="price">Giá:</label>
+            <input type="number" id="price" required>
+
+            <button type="submit">Đăng Bán</button>
+        </form>
+    </section>
+
+    <section id="buy">
+        <h2>Mua Sách Cũ</h2>
+        <div id="bookList">
+            <h3>Danh sách sách:</h3>
+            <ul id="books"></ul>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Mua Bán Sách Cũ. Tất cả các quyền được bảo lưu.</p>
+</footer>
+
+<script src="Untitled-3.js"></script>
+</body>
+</html>
