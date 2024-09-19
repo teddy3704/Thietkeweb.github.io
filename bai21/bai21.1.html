@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Blackstone Bistro: Pizza-on-Demand</title>
+    <style type="text/css">
+        ol, ul { list-style-type: none; }
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        label { display: block; margin: 10px 0 5px; }
+        input[type="text"], input[type="tel"], input[type="email"], textarea, select { 
+            width: 100%; 
+            padding: 8px; 
+            margin-bottom: 10px; 
+            border: 1px solid #ccc; 
+            border-radius: 4px; 
+        }
+        button { 
+            padding: 10px 15px; 
+            background-color: #4CAF50; 
+            color: white; 
+            border: none; 
+            border-radius: 4px; 
+            cursor: pointer; 
+        }
+        button:hover { background-color: #45a049; }
+    </style>
+</head>
+<body>
+
+<h1>Blackstone Bistro | Pizza-on-Demand</h1>
+
+<p>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</p>
+
+<form action="#" method="post">
+
+    <h2>Your Information</h2>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address" required>
+
+    <label for="telephone">Telephone Number:</label>
+    <input type="tel" id="telephone" name="telephone" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="instructions">Delivery Instructions:</label>
+    <textarea id="instructions" name="instructions" rows="4"></textarea>
+
+    <h2>Design Your Dream Pizza:</h2>
+
+    <p>Pizza specs</p>
+    
+    <label for="crust">Crust <em>(Choose one)</em>:</label>
+    <select id="crust" name="crust" required>
+        <option value="classic">Classic white</option>
+        <option value="multigrain">Multigrain</option>
+        <option value="cheese-stuffed">Cheese-stuffed crust</option>
+        <option value="gluten-free">Gluten-free</option>
+    </select>
+
+    <p>Toppings <em>(Choose as many as you want)</em>:</p>
+    <ul>
+        <li><label><input type="checkbox" name="toppings" value="red_sauce"> Red sauce</label></li>
+        <li><label><input type="checkbox" name="toppings" value="white_sauce"> White sauce</label></li>
+        <li><label><input type="checkbox" name="toppings" value="mozzarella"> Mozzarella Cheese</label></li>
+        <li><label><input type="checkbox" name="toppings" value="pepperoni"> Pepperoni</label></li>
+        <li><label><input type="checkbox" name="toppings" value="mushrooms"> Mushrooms</label></li>
+        <li><label><input type="checkbox" name="toppings" value="peppers"> Peppers</label></li>
+        <li><label><input type="checkbox" name="toppings" value="anchovies"> Anchovies</label></li>
+    </ul>
+
+    <label for="numberOfPizzas">How many pizzas:</label>
+    <input type="number" id="numberOfPizzas" name="numberOfPizzas" min="1" required>
+
+    <button type="submit">Order Pizza</button>
+
+</form>
+
+</body>
+</html>
